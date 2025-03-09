@@ -24,3 +24,8 @@ div {
   padding: 0vw 0vh;
   margin: 0vw 0vh;
 }
+.header{
+  position:fixed;
+  top:0px;
+  left:0px;
+}
