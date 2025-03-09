@@ -5,8 +5,8 @@ body {
 }
 .header {
   background-color: rgb(79,171,53);
+  margin: 1em 2em 3em 4em;;
   padding: 0 .5em;
-  line-height:30px;
 }
 .footer {
   background-color: white;
