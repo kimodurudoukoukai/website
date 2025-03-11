@@ -33,5 +33,14 @@ p{
   text-align: center; 
 }
 a{
-  cursor: pointer
+  color: #34a8563;
+  text-decoration: none;
+}
+a:hover{
+  color: #81c9945;
+  text-decoration: none;
+}
+a:visited{
+  color: #34a8563;
+  text-decoration: none;
 }
