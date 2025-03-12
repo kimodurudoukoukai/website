@@ -13,6 +13,9 @@ body{
   font-size: 150%; 
   font-family: sans-serif;
 }
+.footer {
+  background-color: #81c995;
+}
 p{
   font-size: 80%;
 }
