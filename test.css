@@ -21,14 +21,9 @@ p{
   font-size: 80%;
 }
 h1 {
-  background: linear-gradient(transparent 50%, #81c995 50%);
-  border-radius: 0.5em;
+  background: linear-gradient(transparent 60%, #81c995 60%);
 }
 h2 {
-  background: linear-gradient(transparent 70%, #fdd663 70%);
-  border-radius: 0.5em;
-}
-h3 {
-  background: linear-gradient(transparent 90%, #fdd663 90%);
+  background: linear-gradient(transparent 80%, #fdd663 80%);
   border-radius: 0.5em;
 }
