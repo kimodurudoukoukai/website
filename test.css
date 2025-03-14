@@ -22,6 +22,7 @@ p{
 }
 h1 {
   background: linear-gradient(transparent 60%, #81c995 60%);
+  text-align: center;
 }
 h2 {
   background: linear-gradient(transparent 80%, #fdd663 80%);
