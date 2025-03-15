@@ -36,7 +36,7 @@ a {
   color: #34a853;
   text-decoration: none;
 }
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
   p{
-width: 90%;
+width: 40%;
 }
