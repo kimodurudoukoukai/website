@@ -61,6 +61,7 @@ p{
   height:300px; 
   background:#f28b82;
   border-radius:10px;
+  margin: 10px auto;
 }
 .sinntyokubox{
   white-space:nowrap;
@@ -69,6 +70,7 @@ p{
   height:300px; 
   background:#fdd663;
   border-radius:10px;
+  margin: 10px auto;
 }
 .tukuttamonobox{
   white-space:nowrap;
@@ -77,6 +79,7 @@ p{
   height:300px; 
   background:#81c995;
   border-radius:10px;
+  margin: 10px auto;
 }
 .seisakusyabox{
   white-space:nowrap;
@@ -85,4 +88,5 @@ p{
   height:300px; 
   background:#fff;
   border-radius:10px;
+  margin: 10px auto;
 }
