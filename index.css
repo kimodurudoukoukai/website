@@ -50,6 +50,34 @@ p{
   white-space:nowrap;
   overflow:scroll;
   width:100%; 
-  height:400px; 
-  background:8ab4f8;
+  height:300px; 
+  background:#8ab4f8;
+}
+.kimodurubox{
+  white-space:nowrap;
+  overflow:scroll;
+  width:100%; 
+  height:300px; 
+  background:#f28b82;
+}
+.sinntyokubox{
+  white-space:nowrap;
+  overflow:scroll;
+  width:100%; 
+  height:300px; 
+  background:#fdd663;
+}
+.tukuttamonobox{
+  white-space:nowrap;
+  overflow:scroll;
+  width:100%; 
+  height:300px; 
+  background:#81c995;
+}
+.seisakusyabox{
+  white-space:nowrap;
+  overflow:scroll;
+  width:100%; 
+  height:300px; 
+  background:#fff;
 }
