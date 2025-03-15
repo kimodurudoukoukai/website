@@ -46,3 +46,10 @@ p{
   font-size: 80%;
   color: #fff;
 }
+.osirasebox{
+  white-space:nowrap;
+  overflow:scroll;
+  width:100%; 
+  height:400px; 
+  background:8ab4f8;
+}
