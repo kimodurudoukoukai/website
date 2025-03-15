@@ -41,3 +41,14 @@ a {
   color: #34a853;
   text-decoration: none;
 }
+.img-sp{
+  display:none;
+}
+@media screen and(max-width:560px){
+  .img-pc{
+    display:none;
+  }
+  .img-sp{
+  display:block;
+  }
+}
