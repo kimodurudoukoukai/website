@@ -26,17 +26,19 @@ div {
   margin: 0vw 0vh;
 }
 a:hover{
+  background-color: #fff;
   color: #34a853;
+  padding: 15px 60px;
 }
 a:visited{
-  color: #34a853;
+  background-color: #34a853;
+  color: #fff;
+  padding: 15px 60px;  
   text-decoration: none;
 }
 a {
-  color: #34a853;
+  background-color: #34a853;
+  color: #fff;
+  padding: 15px 60px;
   text-decoration: none;
-}
-@media screen and (min-width: 780px) {
-  p{
-width: 40%;
 }
