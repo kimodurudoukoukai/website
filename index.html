@@ -5,9 +5,11 @@
 
 <body>
   <div class=header>
-    <img class="img-pc"src="img/pcimg.png"alt="doukoukairogo.png">
-    <img class="img-sp"src="img/spimg.png"alt="doukoukairogo.png">
-    <br>
+    <picture>
+  <div class="img-sp><source media="(max-width: 560px)" srcset="img/doukoukairogo.png"></div>
+  <div class="img-pc><source media="(max-width: 960px)" srcset="img/doukoukairogo.png"></div>
+  <img src="img/doukoukairogo.png" alt="画像">
+</picture>    <br>
     <div></div>
   </div>
   <div class=main>
