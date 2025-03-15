@@ -53,6 +53,7 @@ p{
   height:300px; 
   background:#8ab4f8;
   border-radius:10px;
+  margin: 10px auto;
 }
 .kimodurubox{
   white-space:nowrap;
