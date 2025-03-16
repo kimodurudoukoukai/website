@@ -54,6 +54,7 @@ p{
   background:#8ab4f8;
   border-radius:10px;
   margin: 10px auto;
+  display: flex;
 }
 #kimodurubox{
   white-space:nowrap;
