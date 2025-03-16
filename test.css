@@ -18,3 +18,20 @@ h1 {
   color: #fff;
   margin: 10px auto;
 }
+.button:hover{
+  background-color: #fff;
+  color: #34a853;
+  padding: 15px 60px;
+}
+.button:visited{
+  background-color: #34a853;
+  color: #fff;
+  padding: 15px 60px;  
+  text-decoration: none;
+}
+.button {
+  background-color: #34a853;
+  color: #fff;
+  padding: 15px 60px;
+  text-decoration: none;
+}
