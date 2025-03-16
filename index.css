@@ -46,7 +46,7 @@ p{
   font-size: 80%;
   color: #fff;
 }
-.osirasebox{
+#osirasebox{
   white-space:nowrap;
   overflow:scroll;
   width:70%; 
@@ -55,7 +55,7 @@ p{
   border-radius:10px;
   margin: 10px auto;
 }
-.kimodurubox{
+#kimodurubox{
   white-space:nowrap;
   overflow:scroll;
   width:70%; 
@@ -64,7 +64,7 @@ p{
   border-radius:10px;
   margin: 10px auto;
 }
-.sinntyokubox{
+#sinntyokubox{
   white-space:nowrap;
   overflow:scroll;
   width:70%; 
@@ -73,7 +73,7 @@ p{
   border-radius:10px;
   margin: 10px auto;
 }
-.tukuttamonobox{
+#tukuttamonobox{
   white-space:nowrap;
   overflow:scroll;
   width:70%; 
@@ -82,7 +82,7 @@ p{
   border-radius:10px;
   margin: 10px auto;
 }
-.seisakusyabox{
+#seisakusyabox{
   white-space:nowrap;
   overflow:scroll;
   width:70%; 
