@@ -4,7 +4,7 @@ body{
   background-color: #34a853;
 }
 .footer {
-  background-color: #81c995;
+  background-color: #34a853;
   text-align:center;
 }
 p{
@@ -15,7 +15,7 @@ h1 {
 }
 #honnbunn{
   width: 80%;
-  color: #fff;
+  background-color: #fff;
   margin: 10px auto;
 }
 .button:hover{
