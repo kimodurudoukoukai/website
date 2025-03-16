@@ -7,9 +7,6 @@ body{
   background-color: #34a853;
   text-align:center;
 }
-p{
-  font-size: 80%;
-}
 h1 {
   text-align: center;
 }
@@ -34,4 +31,11 @@ h1 {
   color: #fff;
   padding: 15px 60px;
   text-decoration: none;
+}
+.yokonarabi{
+  display:flex;
+  flex-wrap: wrap;
+}
+.box{
+  margin: 25px;  
 }
