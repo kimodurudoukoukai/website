@@ -1,6 +1,7 @@
 body{
   font-size: 150%; 
   font-family: sans-serif;
+  background-color: #34a853;
 }
 .footer {
   background-color: #81c995;
@@ -11,4 +12,9 @@ p{
 }
 h1 {
   text-align: center;
+}
+#honnbunn{
+  width: 80%;
+  color: #fff;
+  margin: 10px auto;
 }
