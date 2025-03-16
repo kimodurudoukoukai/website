@@ -25,18 +25,18 @@ div {
   padding: 0vw 0vh;
   margin: 0vw 0vh;
 }
-a:hover{
+button:hover{
   background-color: #fff;
   color: #34a853;
   padding: 15px 60px;
 }
-a:visited{
+button:visited{
   background-color: #34a853;
   color: #fff;
   padding: 15px 60px;  
   text-decoration: none;
 }
-a {
+button {
   background-color: #34a853;
   color: #fff;
   padding: 15px 60px;
