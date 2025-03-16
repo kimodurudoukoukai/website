@@ -1,14 +1,3 @@
-a:hover{
-  color: #34a853;
-}
-a:visited{
-  color: #34a853;
-  text-decoration: none;
-}
-a {
-  color: #34a853;
-  text-decoration: none;
-}
 body{
   font-size: 150%; 
   font-family: sans-serif;
@@ -21,9 +10,5 @@ p{
   font-size: 80%;
 }
 h1 {
-  background: linear-gradient(transparent 60%, #81c995 60%);
   text-align: center;
-}
-h2 {
-  background: linear-gradient(transparent 80%, #fdd663 80%);
 }
