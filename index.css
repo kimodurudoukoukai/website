@@ -85,6 +85,16 @@ p{
   margin: 10px auto;
   display: flex;
 }
+#otanosimibox{
+  white-space:nowrap;
+  overflow:scroll;
+  width:70%; 
+  height:300px; 
+  background:#78d9ec;
+  border-radius:10px;
+  margin: 10px auto;
+  display: flex;
+}
 .box{
   margin:25px;
 }
