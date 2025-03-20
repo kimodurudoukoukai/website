@@ -41,3 +41,10 @@ h1 {
 .box{
   margin: 25px; 
 }
+.mokuji{
+  width: 700px
+  background-color: #81c995;
+  text-decoretion: underline;
+  border-radius: 10px;
+}
+  
