@@ -42,10 +42,8 @@ h1 {
   margin: 25px; 
 }
 .mokuji{
-  width: 700px;
-  background-color: #81c995;
-  text-decoretion: underline;
+  padding: 15px;
+  border: 5px solid #34a853;
   border-radius: 10px;
-  padding: 15px 15px;
 }
   
