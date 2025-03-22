@@ -47,4 +47,9 @@ h1 {
   border-radius: 10px;
   color: #34a853;
 }
-  
+ .mokuji:visited{
+   color: #34a853;
+ }
+.mokuji:hover{
+  color: #81c995;
+}
