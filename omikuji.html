@@ -5,31 +5,14 @@
   <div>
     <div id="honnbunn">
 <h1>おみくじ</h1>
-      <img src="" id="omikuji">
-
+      <button onelink="omikuji(1)">おみくじを引く</button>
+      <p id ="result"></p>
       <script>
-        let omikujiImages = [
-          "o1.png",
-          "o2.png",
-          "o3.png",
-          "o4.png",
-          "o5.png",
-          "o6.png",
-          "o7.png",
-          "o8.png",
-          "o9.png",
-          "o10 (1)",
-          "o11.png",
-          "o12.png",
-          "o13.png",
-          "o14.png",
-          "o15.png",
-          "o16.png",
-          "o17.png"
-        ];
-        let number = Math.floor(Math.random()*16);
-        let target = document.getElementById("omikuji");
-        target.src = "img/"+omikujiImages[number];
+        function omikuji(1) {
+        const omikujiResults = ["大吉","吉","中吉","小吉"];
+        const randomIndex = Math.floor(Matn.random() * omikujiResults.length);
+        const result = omikujiResults[randomIndex];
+        const resultElement = document.getElementById(2result");
       </script>
       <br><br>
       <a class="button"  href="otanosimi.html">他の作品も見る</a>
