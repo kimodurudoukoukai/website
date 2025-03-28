@@ -5,13 +5,15 @@
   <div>
     <div id="honnbunn">
 <h1>おみくじ</h1>
-      <img src="images/img0.png" alt="ここをクリック" id="omikuji" onclick="doreke()" />
+      <p>
+      <img src="images/img0.png" alt="ここをクリック" id="kurikku" onclick="doreka()" />
+      </p>
       <script>
         function doreka(){
           var a = Math.random() * 17;
           var n = Math.floor( a ) +1;
           var koreni = "images/img"+n+".png";
-          document.getElementById("omikuji").src = koreni;
+          document.getElementById("kurikku").src = koreni;
         }
       </script>
       <br><br>
