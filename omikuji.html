@@ -8,7 +8,6 @@
       <p>
         今日の運勢は…？<br>
       <img src="images/img0.png" alt="ここをクリック" id="kurikku" onclick="doreka()" /><br>
-        document.write("msg[n]")
       </p>
       <script>
         function doreka(){
@@ -16,6 +15,7 @@
           var n = Math.floor( a ) +1;
           var koreni = "images/img"+n+".png";
           document.getElementById("kurikku").src = koreni;
+        }
           var msg = new Array();
           msg[1] = "人間界でいう小吉くらい";
           msg[2] = "なにかが中くらいの大きさで現れるだろう…";
@@ -34,7 +34,7 @@
           msg[15] = "もはやキモづる関係無い";
           msg[16] = "なにかが小さくなって現れるだろう…";
           msg[17] = "キモづるとの関連性は？";
-        }
+           document.write("msg[n]");
       </script>
       <br><br>
       <a class="button"  href="otanosimi.html">他の作品も見る</a>
