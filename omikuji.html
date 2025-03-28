@@ -8,7 +8,7 @@
       <p>
         今日の運勢は…？<br>
       <img src="images/img0.png" alt="ここをクリック" id="kurikku" onclick="doreka()" /><br>
-        <div id="kaisetu">解説</div>
+        <p id="kaisetu">解説</p>
       </p>
       <script>
         function doreka(){
@@ -34,8 +34,8 @@
           msg[15] = "もはやキモづる関係無い";
           msg[16] = "なにかが小さくなって現れるだろう…";
           msg[17] = "キモづるとの関連性は？";
-          document.getElementById("kaisetu");
-          element.innerHTML = ("msg[n]");
+          let text = document.getElementById("kaisetu").textContent;
+          document.getElementById("kaisetu").textContent = "msg[n]";
         }
       </script>
       <br><br>
