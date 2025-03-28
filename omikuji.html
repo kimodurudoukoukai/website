@@ -7,8 +7,19 @@
 <h1>おみくじ</h1>
       <p>
         今日の運勢は…？<br>
-      <img src="images/img0.png" alt="ここをクリック" id="kurikku" onclick="doreka()" /><br>
-        <p id="kaisetu">解説</p>
+      <img src="images/img0.png" alt="ここをクリック" id="kurikku" onclick="doreka()" /><br><br>
+        <pre>
+          解説
+          全17種類のおみくじです。
+          今後、もう少し増えるかもしれません。
+          キモづるおみくじの名を使いながらキモづるに
+          関連性のないおみくじもあります。
+          ノリとテンションだけで使ってもらえるとありがたいです。
+          引いた後でも、もう一回クリックすると
+          違うおみくじが出ます。何回でも引いてください。
+          からあげさんがおみくじの案を考え、
+          みどりむしが編集して作りました。
+        </pre>
       </p>
       <script>
         function doreka(){
@@ -16,26 +27,6 @@
           var n = Math.floor( a ) +1;
           var koreni = "images/img"+n+".png";
           document.getElementById("kurikku").src = koreni;
-          var msg = new Array();
-          msg[1] = "人間界でいう小吉くらい";
-          msg[2] = "なにかが中くらいの大きさで現れるだろう…";
-          msg[3] = "寝よう!!!!!";
-          msg[4] = "今日からあげを買うと大きめサイズが入ってるかも";
-          msg[5] = "キモづる限定なのか";
-          msg[6] = "睡眠の質が良いかも";
-          msg[7] = "頭を3つ持ったなにかと縁があるかも？";
-          msg[8] = "今日は神です";
-          msg[9] = "翼を持った何かと縁があるかも";
-          msg[10] = "語呂の良さとノリで<br>決まったので特に意味はない";
-          msg[11] = "٩(๑´0`๑)۶";
-          msg[12] = "なにかが大きくなって現れるだろう…";
-          msg[13] = "なんか良い感じになる";
-          msg[14] = "食べろ";
-          msg[15] = "もはやキモづる関係無い";
-          msg[16] = "なにかが小さくなって現れるだろう…";
-          msg[17] = "キモづるとの関連性は？";
-          let text = document.getElementById("kaisetu").textContent;
-          document.getElementById("kaisetu").textContent = ("msg[n]");
         }
       </script>
       <br><br>
