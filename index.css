@@ -72,18 +72,6 @@ p{
   border: 5px solid #000000;
   border-radius: 10px;
 }
-#sinntyokubox{
-  white-space:nowrap;
-  overflow:scroll;
-  width:70%; 
-  height:300px; 
-  background:#fdd663;
-  border-radius:10px;
-  margin: 10px auto;
-  display: flex;
-  border: 5px solid #000000;
-  border-radius: 10px;
-}
 #tukuttamonobox{
   white-space:nowrap;
   overflow:scroll;
@@ -101,7 +89,7 @@ p{
   overflow:scroll;
   width:70%; 
   height:300px; 
-  background:#78d9ec;
+  background:#fdd663;
   border-radius:10px;
   margin: 10px auto;
   display: flex;
