@@ -62,7 +62,7 @@ h1 {
 }
 .kaiten:active{
   transform:rotate(360deg);
-  transition:0.3s;
+  transition:0.7s;
 }
 .box:hover{
   transform:scale(1.1);
