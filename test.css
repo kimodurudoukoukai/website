@@ -64,3 +64,7 @@ h1 {
   transform:rotate(360deg);
   transition:0.3s;
 }
+.box:hover{
+  transform:scale(1.1);
+  transition:0.4s;
+}
