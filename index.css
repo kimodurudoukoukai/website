@@ -99,6 +99,10 @@ p{
 }
 .box{
   margin:25px;
+  transition:0.4s;
+}
+.box:hover {
+  transform:scale(1.1);
 }
 .daiji{
   font-size: 130%;
