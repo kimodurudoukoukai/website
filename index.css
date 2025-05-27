@@ -26,11 +26,7 @@ div {
   margin: 0vw 0vh;
 }
 .button:hover{
-  background-color: #fff;
-  color: #34a853;
-  padding: 15px 60px;
-  text-decoration: none;
-  border: 4px solid #000000;
+  transform:scale(1.1);
 }
 .button:visited{
   background-color: #34a853;
@@ -45,6 +41,7 @@ div {
   padding: 15px 60px;
   text-decoration: none;
   border: 4px solid #000000;
+  transition:0.4s;
 }
 p{
   color: #fff;
