@@ -1,4 +1,4 @@
-#main{
+body {
   width: 750px;
   background-color: #fff;
   margin: 0px auto;
@@ -41,4 +41,8 @@
   border-width: 13.3px 6.6px 0 6.6px;
   border-color: #ffffff transparent transparent;
   translate: -50% 100%;
+}
+
+.daiji {
+  font-size: 130%;
 }
