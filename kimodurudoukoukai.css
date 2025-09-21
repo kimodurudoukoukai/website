@@ -11,7 +11,7 @@ body {
 }
   .hukidasi {
   overflow: scroll;
-  height: 400px;
+  height: 300px;
   width: 350px;
   position: relative;
   display: inline-block;
