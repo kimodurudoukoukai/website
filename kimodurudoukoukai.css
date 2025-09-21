@@ -53,3 +53,21 @@ body {
 .daiji {
   font-size: 130%;
 }
+.button-1 {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  outline: none;
+  color: #000;
+  border:1px solid #34a853;
+  background-color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.button-1:hover {
+  color: #fff;
+  border:1px solid #000;
+  background-color: #34a853;
+}
