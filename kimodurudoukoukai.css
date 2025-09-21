@@ -10,6 +10,8 @@ body {
   font-size: 130%;
 }
   .hukidasi {
+  overflow: scroll;
+  height: 400px;
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
