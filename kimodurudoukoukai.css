@@ -12,7 +12,41 @@
   font-family: sans-serif;
   font-size: 24px;
 }
- 
+ .hukidasi {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 5px solid #000000;
+  border-radius: 8px;
+  background-color: #ffffff;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.hukidasi::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-style: solid;
+  border-width: 20px 10px 0 10px;
+  border-color: #000000 transparent transparent;
+  translate: -50% 100%;
+}
+
+.hukidasi::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-style: solid;
+  border-width: 8.8px 4.4px 0 4.4px;
+  border-color: #ffffff transparent transparent;
+  translate: -50% 100%;
+}
 .daiji {
   font-size: 130%;
 }
