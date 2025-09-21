@@ -9,46 +9,7 @@ body {
   font-family: sans-serif;
   font-size: 130%;
 }
-  .hukidasi {
-  overflow: scroll;
-  height: 330px;
-  width: 350px;
-  position: relative;
-  display: inline-block;
-  margin-bottom: 20px;
-  padding: 26px;
-  border: 3px solid #000000;
-  border-radius: 8px;
-  background-color: #ffffff;
-  text-align: center;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #000000;
-  margin: 0px auto;
-}
-
-.hukidasi::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  border-style: solid;
-  border-width: 20px 10px 0 10px;
-  border-color: #000000 transparent transparent;
-  translate: -50% 100%;
-}
-
-.hukidasi::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  border-style: solid;
-  border-width: 13.3px 6.6px 0 6.6px;
-  border-color: #ffffff transparent transparent;
-  translate: -50% 100%;
-}
-
+ 
 .daiji {
   font-size: 130%;
 }
