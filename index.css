@@ -43,7 +43,11 @@ div {
   border: 4px solid #000000;
   transition:0.4s;
 }
-p{
+.moji{
+  coler: #000;
+  text-decoration: none;
+}
+.fff{
   color: #fff;
 }
 #newspaper_box{
@@ -97,12 +101,12 @@ p{
 .box{
   background: #fff;
   border: 4px solid #000;
-  margin:25px;
-  width:190px;
-  height:250px;
+  margin: 25px auto;
+  width:250px;
+  height:80px;
 }
 .square_box{
-  margin:25px 25px;
+  margin:25px;
   width:200px;
   height:200px;
   border: 4px solid #000;
