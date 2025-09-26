@@ -47,6 +47,10 @@ div {
   coler: #000;
   text-decoration: none;
 }
+.moji:visited{
+  coler: #707070;
+  text-decoration: none;
+}
 .fff{
   color: #fff;
 }
