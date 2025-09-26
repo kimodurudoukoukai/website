@@ -114,3 +114,7 @@ p{
 .daiji{
   font-size: 130%;
 }
+.under{
+  display: inline-block;
+  text-align: center;
+}
