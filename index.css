@@ -103,6 +103,12 @@ p{
 .box:hover {
   transform:scale(1.1);
 }
+.square_box{
+  margin:25px;
+  width:250px;
+  height:250px;
+  border: 4px solid #000;
+}
 .daiji{
   font-size: 130%;
 }
