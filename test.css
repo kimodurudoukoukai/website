@@ -54,9 +54,11 @@ h1 {
 }
  .black:visited{
    color: #707070;
+   text-decoration: none;
  }
 .black{
   color: #000000;
+  text-decoration: none;
 }
 .box:hover{
   transform:scale(1.1);
