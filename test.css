@@ -53,12 +53,13 @@ h1 {
   border: 5px solid #000000;
   border-radius: 10px;
   color: #000000;
+  text-decoration: none;
 }
  .black:visited{
    color: #707070;
  }
 .black{
-  color: #0000;
+  color: #000000;
 }
 .kaiten:active{
   transform:rotate(360deg);
