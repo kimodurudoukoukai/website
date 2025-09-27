@@ -100,7 +100,6 @@ div {
   margin: 25px auto;
   width:200px;
   padding: 15px 15px;
-  text-decoration: none;
 }
 .square_box{
   margin:25px auto;
@@ -110,9 +109,11 @@ div {
 }
 .black{
   coler: #000000;
+  text-decoration: none;
 }
 .black:visited{
   coler: #707070;
+  text-decoration: none;
 }
 .daiji{
   font-size: 130%;
