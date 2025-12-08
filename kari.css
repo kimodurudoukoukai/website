@@ -18,8 +18,10 @@ body {
 .seigen{
   max-width: 800px;
 }
+.button{
+  width: 20%
+}
 .button:hover{
-  width: 150px
   transform:scale(1.1);
   transition:0.4s;
 }
