@@ -11,7 +11,7 @@ body {
 .yokonarabi {
   display: inline-block;
   padding: 10px;
-  margin: 15px;
+  margin: 20px;
 }
 .fff{
   color: #fff;
@@ -19,10 +19,11 @@ body {
 .seigen{
   max-width: 800px;
 }
-.button{
-  width: 20%;
+.choosing{
+  display: inline-block;
+  margin: 25px;
 }
-.button:hover{
+.choosing:hover{
   transform:scale(1.1);
   transition:0.4s;
 }
