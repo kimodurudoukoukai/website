@@ -4,11 +4,9 @@ body {
 }
 .header {
   background-color: #34a853;
-  padding: 0 .5em;
 }
 .footer {
   background-color: #34a853;
-  padding: 0 .5em;
 }
 .yokonarabi {
   display: inline-block;
@@ -19,4 +17,9 @@ body {
 }
 .seigen{
   max-width: 1200px;
+}
+.button:hover{
+  width: 150px
+  transform:scale(1.1);
+  transition:0.4s;
 }
