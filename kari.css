@@ -11,3 +11,12 @@ body {
   background-color: #34a853;
   padding: 0 .5em;
 }
+.yokonarabi {
+  display: inline-block;
+}
+.fff{
+  color: #fff;
+}
+.seigen{
+  max-width: 1200px;
+}
