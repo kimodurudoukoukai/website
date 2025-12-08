@@ -21,11 +21,11 @@ body {
 }
 .choosing{
   display: inline-block;
-  margin: 25px;
 }
 .button{
   overflow: hidden;
   width: 23%;
+  margin: 20px;
 }
 .button img{
   transition: transform .6 ease;
