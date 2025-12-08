@@ -1,1 +1,13 @@
-
+body {
+  text-align:center;
+  font-family: sans-serif;
+}
+.header {
+  background-color: #34a853;
+  padding: 0 .5em;
+  max-width: 1200px;
+}
+.footer {
+  background-color: #34a853;
+  padding: 0 .5em;
+}
