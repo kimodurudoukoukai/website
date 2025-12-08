@@ -23,7 +23,7 @@ body {
   display: inline-block;
   margin: 25px;
 }
-.choosing:hover{
+a:hover{
   transform:scale(1.1);
   transition:0.4s;
 }
