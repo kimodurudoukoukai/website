@@ -23,7 +23,13 @@ body {
   display: inline-block;
   margin: 25px;
 }
-a:hover{
-  transform:scale(1.1);
-  transition:0.4s;
+.button{
+  overflow: hidden;
+  width: 23%;
+}
+.button img{
+  transition: transform .6 ease;
+}
+.button:hover img{
+  transform: scale(1,1);
 }
