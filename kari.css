@@ -32,14 +32,12 @@ a:hover img{
   hight: 500px;
   margin: 10px auto;
   overflow: auto;
-  background-color: #ff8e8e;
-  scroll-snap-type:y mandatory;
+  background-color: #81c995;
 }
 .article{
   width: 60%;
   margin: 10px auto;
 　pdding: 50px;
-  scroll-snap-align: center;
   background-color: #fff;
   font-size: 20px;
 }
