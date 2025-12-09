@@ -1,4 +1,4 @@
-  .main img{
+ .main img{
   max-width:800px;
   border: 5px solid #000;
   margin:0 auto;
@@ -7,4 +7,16 @@ body{
   text-align:center;
   font-family: sans-serif;
   background-color: #34a853;
+}
+.mokuji{
+  width: 80%;
+  max-width: 800px;
+  margin:0 auto;
+  padding:20px auto;
+  border: 5px solid #000;
+  background-color: #fff;
+}
+.mokuji a{
+  text-decoration: none;
+  coler: #000;
 }
