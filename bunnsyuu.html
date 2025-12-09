@@ -3,30 +3,55 @@
 <link rel="stylesheet" href="kk.css"><html>
 <body>
   <div>
-    <div id="area">
-      <img id="images" src="images/kimodurutoaityaku_1.png" width="750px">
-    </div>
-    <div id="buttons">
-      <button oneclick="susumu()">進む</button>
-      <button oneclick="modoru()">戻る</button>
-    </div><br>
-    <div class=footer>
+    <div class="carousel-container">
+  <div class="carousel">
+    <div class="box box-1"><img src="images/kimodurutoaityaku_1.png"></div>
+    <div class="box box-2"><img src="images/kimodurutoaityaku_2.png"></div>
+  </div>
+  <button id="lt"><</button>
+  <button id="gt">></button>
+</div>    <div class=footer>
       <script>
-        const images= ["kimodurutoaityaku_1.png","kimodurutoaityaku_2.png"]
-        const image= document.getElementById("image");
-        let count= 0;
-        function susumu() {
-          if(count<images.length-1){
-            count++;
-            image.setAttribute("src",images[count]);
+        const lt = document.getElementById('lt');
+        const gt = document.getElementById('gt');
+        const carousel = document.querySelector('.carousel');
+        const boxes = document.querySelectorAll('.box');
+        let index = 0;
+
+        function updatebtn() {
+          lt.classList.remove('hidden');
+          gt.classList.remove('hidden');
+
+          if (index === 0) {
+            lt.classList.add('hidden');
+          }
+          
+          if (index === boxes.length - 1) {
+            gt.classList.add('hidden');
           }
         }
-        function modoru() {
-          if(count>0){
-            count--;
-            image.setAttribute("src",images[count]);
-          }
+        function moveBoxes() {
+          const boxWidth = boxes[0].getBoundingClientRect().width;
+          carousel.style.transform = `translateX(${-1 * boxWidth * index}px)`;
         }
+
+        updatebtn();
+
+        gt.addEventListener('click', () => {
+          index++;
+          updatebtn();
+          moveBoxes();
+        });
+
+        lt.addEventListener('click', () => {
+          index--;
+            updatebtn();
+          moveBoxes();
+        });
+
+        window.addEventListener('resize', () => {
+          moveBoxes();
+        });     
       </script>
     </body>
 </html>
