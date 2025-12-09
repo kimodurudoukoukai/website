@@ -14,16 +14,16 @@
     <div class=footer>
     <a href="index.html"><img src="images/rogo.png" width="30%" alt="キモづる同好会"></a>
       <script>
-        const images=["images/kimodurutoaityaku_1.png","images/kimodurutoaityaku_2.png"]
-        const image=document.getElementById("image");
-        let count=0;
-        function susume(){
+        const images= ["images/kimodurutoaityaku_1.png","images/kimodurutoaityaku_2.png"]
+        const image= document.getElementById("image");
+        let count= 0;
+        function susume() {
           if(count<images.length-1){
             count++;
             image.setAttribute("src",images[count]);
           }
         }
-        function modoru(){
+        function modoru() {
           if(count>0){
             count--;
             image.setAttribute("src",images[count]);
