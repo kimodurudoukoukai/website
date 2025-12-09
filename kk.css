@@ -1,8 +1,7 @@
-.yokonarabi{
-  display: inline-block;
+.main{
   padding: 10px;
   margin: 0 auto;
 }
-.yokonarabi img{
+.main img{
   max-width:800px;
 }
