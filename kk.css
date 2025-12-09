@@ -1,6 +1,7 @@
   .main img{
   max-width:800px;
   border: 5px solid #000;
+  margin:0 auto;
 }
 .body{
   text-align:center;
