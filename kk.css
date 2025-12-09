@@ -13,5 +13,6 @@
 #buttons button{
   display:block;
   padding:40px;
+  margin: 40px;
   font-size:150%;
 }
