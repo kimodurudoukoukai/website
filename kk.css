@@ -1,0 +1,16 @@
+#area{
+  width: 750px;
+  padding: 5%;
+  margin: 10px auto;
+}
+#buttons{
+  display:flex;
+  widgh:50%
+  margin:0 auto;
+  justify-content:space-between;
+}
+#buttons button{
+  display:block;
+  padding:5% 10%;
+  font-size:115%;
+}
