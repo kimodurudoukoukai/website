@@ -28,22 +28,22 @@ a:hover img{
   opacity: 0.5;
 }
 .news{
-  width: 350px;
+  width: 100%;
   hight: 500px;
   margin: 10px auto;
   overflow: auto;
-  border: solid 3px;
+  background-color: #ff8e8e;
   scroll-snap-type:y mandatory;
 }
 .article{
-  width: 350px;
+  width: 60%;
   margin: 10px auto;
 　pdding: 50px;
   scroll-snap-align: center;
-  background-color: skyblue;
+  background-color: #fff;
   font-size: 20px;
 }
 .big{
-  font-size: 30px;
-  border-bottom: double 6px #435fff;
+  font-size: 150%;
+  text-decoration:underline #f74542;
 }
