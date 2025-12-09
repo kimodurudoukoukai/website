@@ -22,13 +22,8 @@ body {
 .choosing{
   display: inline-block;
 }
-.button{
-  overflow: hidden;
-  margin: 20px;
-}
-.button img{
-  transition: transform .6s ease;
-}
-.button:hover img{
-  transform: scale(1,1);
+a:hover img{
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
