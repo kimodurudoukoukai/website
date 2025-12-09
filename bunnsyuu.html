@@ -3,55 +3,13 @@
 <link rel="stylesheet" href="kk.css"><html>
 <body>
   <div>
-    <div class="carousel-container">
-  <div class="carousel">
-    <div class="box box-1"><img src="images/kimodurutoaityaku_1.png" width="750px"></div>
-    <div class="box box-2"><img src="images/kimodurutoaityaku_2.png" width="750px"></div>
+    <div class="yokonarabi">
+<img src="images/kimodurutoaityaku_1.png" width="750px">
+<img src="images/kimodurutoaityaku_2.png" width="750px">
+    </div>
   </div>
   <button id="lt"><</button>
   <button id="gt">></button>
 </div>    <div class=footer>
-      <script>
-        const lt = document.getElementById('lt');
-        const gt = document.getElementById('gt');
-        const carousel = document.querySelector('.carousel');
-        const boxes = document.querySelectorAll('.box');
-        let index = 0;
-
-        function updatebtn() {
-          lt.classList.remove('hidden');
-          gt.classList.remove('hidden');
-
-          if (index === 0) {
-            lt.classList.add('hidden');
-          }
-          
-          if (index === boxes.length - 1) {
-            gt.classList.add('hidden');
-          }
-        }
-        function moveBoxes() {
-          const boxWidth = boxes[0].getBoundingClientRect().width;
-          carousel.style.transform = `translateX(${-1 * boxWidth * index}px)`;
-        }
-
-        updatebtn();
-
-        gt.addEventListener('click', () => {
-          index++;
-          updatebtn();
-          moveBoxes();
-        });
-
-        lt.addEventListener('click', () => {
-          index--;
-            updatebtn();
-          moveBoxes();
-        });
-
-        window.addEventListener('resize', () => {
-          moveBoxes();
-        });     
-      </script>
     </body>
 </html>
