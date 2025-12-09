@@ -29,7 +29,7 @@ a:hover img{
   opacity: 0.5;
 }
 .news{
-  width: 70%;
+  width: 500px;
   hight: 500px;
   overflow: auto;
   border: solid 5px black;
@@ -40,4 +40,5 @@ a:hover img{
   hight: 400px;
   margin: 50px auto;
   scroll-snap-align: center;
+  background-color: skyblue;
 }
