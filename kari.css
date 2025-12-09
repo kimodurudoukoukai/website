@@ -31,13 +31,14 @@ a:hover img{
   width: 100%;
   hight: 500px;
   margin: 0 auto;
+  padding: 30px auto;
   background-color: #81c995;
 }
 .details{
   width:80%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 25px;
   border: dashed 3px #34a853;
   background-color: #fff;
 }
