@@ -34,7 +34,7 @@ a:hover img{
   overflow: auto;
   background-color: #81c995;
 }
-.details-summary{
+.details{
   width:80%;
   max-width: 800px;
   margin: 0 auto;
@@ -42,7 +42,7 @@ a:hover img{
   border: dashed 3px #9aa0a6;
   backgraund-color: #fff;
 }
-.big{
+.details-summary{
   font-size: 150%;
-  text-decoration:underline #f74542;
+ boder-bottom: solid 3px #9aa0a6;
 }
