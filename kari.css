@@ -30,6 +30,7 @@ a:hover img{
 .news{
   width: 500px;
   hight: 500px;
+  margin: 10px auto;
   overflow: auto;
   border: solid 5px black;
   scroll-snap-type:y mandatory;
@@ -38,6 +39,7 @@ a:hover img{
   width: 350px;
   hight: 400px;
   margin: 50px auto;
+　padding: 20px;
   scroll-snap-align: center;
   background-color: skyblue;
   font-size: 20px;
