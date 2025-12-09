@@ -28,7 +28,7 @@ a:hover img{
   opacity: 0.5;
 }
 .news{
-  width: 60%;
+  width: 350px;
   hight: 500px;
   margin: 10px auto;
   overflow: auto;
@@ -37,9 +37,8 @@ a:hover img{
 }
 .article{
   width: 350px;
-  hight: 400px;
-  margin: 50px auto;
-　pdding: 20px;
+  margin: 10px auto;
+　pdding: 50px;
   scroll-snap-align: center;
   background-color: skyblue;
   font-size: 20px;
