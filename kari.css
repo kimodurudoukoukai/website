@@ -38,10 +38,10 @@ a:hover img{
   max-width: 800px;
   margin: 0 auto;
   padding: 50px;
-  border: dashed 3px #9aa0a6;
-  backgraund-color: #fff;
+  border: dashed 3px #34a853;
+  background-color: #fff;
 }
 .details-summary{
   font-size: 150%;
- boder-bottom: solid 3px #9aa0a6;
+ boder-bottom: solid 3px #34a853;
 }
