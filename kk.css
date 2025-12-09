@@ -20,3 +20,15 @@ body{
   text-decoration: none;
   coler: #000;
 }
+.pagetop{
+ position: fixed;
+ botton: 16px;
+ right: 16px;
+}
+.pagetop a{
+ display: block;
+ text-decoration: none;
+}
+.page:hover{
+ opacity:0.85;
+}
