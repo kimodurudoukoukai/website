@@ -1,7 +1,7 @@
  .main img{
   max-width:800px;
   border: 5px solid #000;
-  margin:0 auto;
+  margin:20px auto;
 }
 body{
   text-align:center;
@@ -11,7 +11,7 @@ body{
 .mokuji{
   width: 80%;
   max-width: 800px;
-  margin:0 auto;
+  margin:20px auto;
   padding:20px auto;
   border: 5px solid #000;
   background-color: #fff;
