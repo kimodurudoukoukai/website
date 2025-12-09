@@ -20,6 +20,9 @@ body{
   text-decoration: none;
   coler: #000;
 }
+.mokuji a:visited{
+ color: #000;
+}
 .pagetop{
  position: fixed;
  botton: 16px;
