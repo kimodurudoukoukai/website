@@ -14,18 +14,18 @@
     <a href="index.html"><img src="images/rogo.png" width="30%" alt="キモづる同好会"></a>
       <script>
         const images=["images/kimodurutoaityaku_1.png","images/kimodurutoaityaku_2.png"]
-        const images=document.getElementById("images");
+        const image=document.getElementById("image");
         let count=0;
         function susume(){
           if(count<images.length-1){
             count++;
-            images.setAttribute("src",images[count]);
+            image.setAttribute("src",images[count]);
           }
         }
         function modoru(){
           if(count>0){
             count--;
-            images.setAttribute("src",images[count]);
+            image.setAttribute("src",images[count]);
           }
         }
       </script>
