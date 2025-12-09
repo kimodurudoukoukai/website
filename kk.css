@@ -1,43 +1,5 @@
-.carousel-container {
+.yokonarabi{
+  display: inline-block;
+  padding: 10px;
   margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel {
-  display: flex;
-  transition: transform .3s;
-}
-
-.box {
-}
-#lt,
-#gt {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, .8);
-  color: #fff;
-  font-size: 24px;
-  padding: 0 6px;
-  cursor: pointer;
-}
-
-#lt {
-  left: 8px;
-}
-
-#gt {
-  right: 8px;
-}
-
-#lt:hover,
-#gt:hover {
-    opacity: .8;
-}
-
-.hidden {
-  display: none;
 }
