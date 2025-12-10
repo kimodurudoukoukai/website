@@ -11,7 +11,7 @@ body{
 }
 .mokuji{
   width: 73%;
- max-width: 620px;
+ max-width: 640px;
   margin:20px auto;
   padding:20px 6%;
   border: 5px solid #000;
@@ -19,7 +19,7 @@ body{
 }
 .game{
   width: 73%;
-  max-width: 620px;
+  max-width: 640px;
   margin:20px auto;
   padding:20px 6%;
   border: 5px solid #000;
