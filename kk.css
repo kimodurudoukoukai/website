@@ -10,16 +10,16 @@ body{
   background-color: #34a853;
 }
 .mokuji{
-  width: 73%;
- max-width: 640px;
+  width: 75%;
+ max-width: 650px;
   margin:20px auto;
   padding:20px 6%;
   border: 5px solid #000;
   background-color: #fff;
 }
 .game{
-  width: 73%;
-  max-width: 640px;
+  width: 75%;
+  max-width: 650px;
   margin:20px auto;
   padding:20px 6%;
   border: 5px solid #000;
