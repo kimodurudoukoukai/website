@@ -17,10 +17,10 @@ body{
   background-color: #fff;
 }
 .game{
-  width: 700px;
+  width: 70%;
   max-width: 700px;
-  margin:20px 6%;
-  padding:25px;
+  margin:20px auto;
+  padding:20px 6%;
   border: 5px solid #000;
   background-color: #fff;
 }
