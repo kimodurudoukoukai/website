@@ -1,128 +1,48 @@
 body {
   text-align:center;
   font-family: sans-serif;
-  margin: 0;
-  padding: 0;
 }
 .header {
   background-color: #34a853;
-  padding: 0 .5em;
 }
 .footer {
   background-color: #34a853;
-  padding: 0 .5em;
 }
-.main {
-  background-color: white;
-  padding: 1em;
-}
-h1 {
-  font-size: 150%;
-  margin: 0 0;
-  padding: .5em 0;
-}
-div {
-  padding: 0vw 0vh;
-  margin: 0vw 0vh;
-}
-.button:hover{
-  transform:scale(1.1);
-  transition:0.4s;
-}
-.button:visited{
-  background-color: #34a853;
-  color: #fff;
-  padding: 15px 30px;  
-  text-decoration: none;
-  border: 4px solid #000000;
-}
-.button {
-  background-color: #34a853;
-  color: #fff;
-  padding: 15px 30px;
-  text-decoration: none;
-  border: 4px solid #000000;
-  transition:0.4s;
+.yokonarabi {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
 }
 .fff{
   color: #fff;
 }
-#newspaper_box{
-  white-space:nowrap;
-  overflow:scroll;
-  width:300px; 
-  height:400px; 
-  background:#8ab4f8;
-  border-radius:10px;
-  margin: 10px auto;
-  display: block;
-  border: 4px solid #000000;
-  border-radius: 10px;
+img{
+  max-width:800px;
 }
-#character_box{
-  white-space:nowrap;
-  overflow:scroll;
-  width:300px; 
-  height:400px; 
-  background:#f28b82;
-  border-radius:10px;
-  margin: 10px auto;
-  display: block;
-  border: 4px solid #000000;
-  border-radius: 10px;
+.choosing{
+  display: inline-block;
 }
-#reading_box{
-  white-space:nowrap;
-  overflow:scroll;
-  width:300px; 
-  height:400px; 
-  background:#81c995;
-  border-radius:10px;
-  margin: 10px auto;
-  display: block;
-  border: 4px solid #000000;
-  border-radius: 10px;
+a:hover img{
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
-#games_box{
-  white-space:nowrap;
-  overflow:scroll;
-  width:300px; 
-  height:400px; 
-  background:#fdd663;
-  border-radius:10px;
-  margin: 10px auto;
-  display: block;
-  border: 4px solid #000000;
-  border-radius: 10px;
+.news{
+  width: 100%;
+  hight: 500px;
+  margin: 0 auto;
+  padding: 30px auto;
+  background-color: #81c995;
 }
-.box{
-  background: #fff;
-  border: 4px solid #000;
-  margin: 25px auto;
-  width:200px;
-  padding: 15px 15px;
+.details{
+  width:80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  border: dashed 3px #34a853;
+  background-color: #fff;
 }
-.square_box{
-  margin:25px auto;
-  width:200px;
-  height:200px;
-  border: 4px solid #000;
-}
-.black{
-  color: #000000;
-  text-decoration: none;
-}
-.black:visited{
-  color: #707070;
-  text-decoration: none;
-}
-.daiji{
-  font-size: 130%;
-}
-.setumei{
-  margin: 25px;
-}
-.box:hover{
-  transform:scale(1.1);
-  transition:0.4s;
+.details-summary{
+  font-size: 120%;
+ boder-bottom: solid 3px #34a853;
 }
